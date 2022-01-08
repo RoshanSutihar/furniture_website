@@ -1,0 +1,66 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img/land.jpg');
+}
+
+
+.card-radius{
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.footer-section {
+    padding: 116px 0 130px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/ws.jpg');
+}
+
+.footer-about {
+    max-width: 470px;
+    color: #fff;
+}
+
+.footer-about img {
+	margin-bottom: 35px;
+}
+
+.footer-about p {
+	color: #fff;
+}
+
+/* ----------------
+  7. Footer section
+---------------------*/
+
+.footer-info {
+    padding-top: 27px;
+    color: #fff;
+}
+
+.footer-info h6 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+	font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 40px;
+}
+
+.footer-info ul {
+	list-style: none;
+}
+
+.footer-info ul li {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}

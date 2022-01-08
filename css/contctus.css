@@ -1,0 +1,198 @@
+
+
+
+.contact-page {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 130px;
+	padding-bottom: 120px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img/land.jpg');
+}
+
+.contact-text h2 {
+	font-size: 48px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.contact-text p {
+	opacity: 0.5;
+	margin-bottom: 50px;
+} */
+
+ .contact-text ul {
+	list-style: none;
+}
+
+.contact-text ul li {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 18px;
+}
+
+.contact-text ul li h6 {
+	font-size: 15px;
+	font-weight: 500;
+	display: inline-block;
+	width: 83px;
+} 
+
+ .contact-form input,
+.contact-form textarea {
+	width: 100%;
+	border: none;
+	font-size: 12px;
+	color: #fff;
+	padding-bottom: 22px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+}
+
+.contact-form textarea {
+	height: 220px;
+	margin-bottom: 50px;
+}
+
+
+/* BOUTTON */
+
+
+.site-btn {
+	display: inline-block;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	min-width: 186px;
+	text-transform: uppercase;
+	background: transparent;
+	color: #fff;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+}
+
+.site-btn:after,
+.site-btn:before {
+	position: absolute;
+	content: "";
+	width: 15px;
+	height: 14px;
+}
+
+.site-btn:before {
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	left: 0;
+	top: 0;
+}
+
+.site-btn:after {
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	right: 0;
+	top: 0;
+}
+
+.site-btn span {
+	display: block;
+	padding: 23px 45px;
+}
+
+.site-btn span:after,
+.site-btn span:before {
+	position: absolute;
+	content: "";
+	width: 15px;
+	height: 14px;
+}
+
+.site-btn span:before {
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	left: 0;
+	bottom: 0;
+}
+
+.site-btn span:after {
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	right: 0;
+	bottom: 0;
+}
+
+.site-btn.sb-dark {
+	color: #000;
+}
+
+.site-btn.sb-dark:before {
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+}
+
+.site-btn.sb-dark:after {
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.site-btn.sb-dark span:before {
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+}
+
+.site-btn.sb-dark span:after {
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+
+
+
+.footer-section {
+    padding: 116px 0 130px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/ws.jpg');
+}
+
+.footer-about {
+    max-width: 470px;
+    color: #fff;
+}
+
+.footer-about img {
+	margin-bottom: 35px;
+}
+
+.footer-about p {
+	color: #fff;
+}
+
+/* ----------------
+  7. Footer section
+---------------------*/
+
+.footer-info {
+    padding-top: 27px;
+    color: #fff;
+}
+
+.footer-info h6 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+	font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 40px;
+}
+
+.footer-info ul {
+	list-style: none;
+}
+
+.footer-info ul li {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
